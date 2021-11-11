@@ -171,6 +171,7 @@ form h1 {
     white-space: nowrap;
     overflow: hidden;
     float: left;
+    cursor: pointer;
 }
 
 .block3{
@@ -178,6 +179,7 @@ form h1 {
     vertical-align: middle;
     float: right;
     background: white;
+    cursor: pointer;
 }
 
 .block4{
@@ -204,6 +206,8 @@ form h1 {
     float: right;
     background: white;
     margin-right: 5px;
+    cursor: pointer;
+    
 }
 
 .itog {
