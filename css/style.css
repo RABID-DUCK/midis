@@ -80,6 +80,7 @@ footer {
 }
 .login-form input{
     margin: 0 auto;
+    cursor: pointer;
 }
 .login-form,
 .login-form input[type="text"],
