@@ -227,12 +227,13 @@ back.addEventListener("click", (event) => {
     getQuestion(number);
 });
 
-let vibor = 0;
+
 
 
 itog.addEventListener("click", (event) => {
     let flag=false;
     let min=1;
+	let vibor = 0;
     for (let index = 0; index < 24; index++) {
         if (result[index] == 0) {
             a.classList.remove("btn-none") ;min=result[index]
@@ -253,9 +254,9 @@ itog.addEventListener("click", (event) => {
             }
         }
 
-        var max = 0;
+        let max = 0;
         for (let i = 0; i < question.length; i++) {
-            if (question[i] > max) {
+            if (question[i] >= max) {
                 max = question[i];
                 vibor = i;
                 console.log(vibor)
