@@ -2,9 +2,9 @@
 <html lang="ru">
 
 <head>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style(old).css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab" rel="stylesheet">
-	<link href="../img/logoM.jpg" rel="icon">
+    <link href="../img/logoM.jpg" rel="icon">
     <script defer src="../js/test.js"></script>
     <meta charset="UTF-8">
     <meta name="keyworlds" content="MIDIS, МИДИС, Тестирование">
@@ -16,40 +16,47 @@
 <body background="../img/bg.svg">
     <div id="wrapper">
         <header class="header">
-            <img height="60px" src="../img/midis.png" alt="МИДиС">
+            <div>
+                <img class="M" src="../img/burger-M.png" alt="M">
+                <img height="80px" src="../img/midis.png" alt="МИДиС">
+            </div>
         </header>
         <div class="container">
-            <div class="">
-                <div class="">
-                    <main>
-                        <div class="block1 border">
-                            <div class="questions"></div>
-                            <h2></h2>
-                            <hr>
-                            <form class="form1" name="question" action="article2.html">
-                                <!-- <input type="radio" name="question" value="Yes" /> Да<br />
+
+            <main>
+                <div class="block1 nav border">
+                    <div class="questions"></div>
+                </div>
+                <div class="block1 border">
+                    <h2 class="nazvanie-voprosa"></h2>
+                    <form class="form1" name="question" action="article2.html">
+                        <!-- <input type="radio" name="question" value="Yes" /> Да<br />
                                 <input type="radio" name="question" value="Yes_and_no" /> Не очень сильно<br />
                                 <input type="radio" name="question" value="No" /> Нет<br />
                                 <input type="radio" name="question" value="Possibly" /> Что такое техника?<br /> -->
-                            </form>
-                            <p class="no btn-none"> вы не прошли полностью Тест</p>
-                        </div>
-                        <div class="block23 clearfix">
-                            <div class="block2 border"><a href="../index.html"><img src="../img/home-solid.svg"
-                                        width="55px" alt="На главную" style="float:left"><b>На главную</b></a></div>
-                            <div class="block3 border">
-                                <img src="../img/arrow-alt-circle-right-regular.svg" alt="Next" width="45px">
-                            </div>
-                            <div class="itog btn-none border">
-                                <img src="../img/itog.svg" alt="Result" height="45px">
-                            </div>
-                            <div class="block5 btn-none border">
-                                <img src="../img/arrow-alt-circle-left-regular.svg" alt="Back" width="45px">
-                            </div>
-                        </div>
-                    </main>
+                    </form>
+                    <p class="no btn-none"> вы не прошли полностью Тест</p>
                 </div>
-            </div>
+                <div class="btns">
+                    <div class="block2 border"><a href="../index.html"><img src="../img/home-solid.svg" width="55px"
+                                alt="На главную" style="float:left"><b>На главную</b></a>
+                    </div>
+                    <div class="btns-rigth">
+                        <div class="block5 btn-none border">
+                            <img src="../img/arrow-alt-circle-left-regular.svg" alt="Back" width="45px">
+                        </div>
+                        <div class="block3 border">
+                            <img src="../img/arrow-alt-circle-right-regular.svg" alt="Next" width="45px">
+                        </div>
+                        <div class="itog btn-none border">
+                            <img src="../img/itog.svg" alt="Result" height="45px">
+                        </div>
+    
+                    </div>
+                   
+                </div>
+            </main>
+
         </div>
     </div>
     <footer class="footer">
@@ -63,4 +70,5 @@
 
     </footer>
 </body>
+
 </html>
