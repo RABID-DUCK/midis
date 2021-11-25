@@ -126,15 +126,40 @@ let answers = [[1, 0, 0, 3, 0, 2],
 let question = [0, 0, 0, 0, 0, 0];
 
 var d = document;
+let getQuest = document.querySelector(".questions");
 let h2 = document.querySelector(".block1 h2");
 let form1 = document.querySelector(".form1");
 let a = d.querySelector(".block1 p");
 let number = 0;
 
 let result = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+// ходьба по номерам заданий-----------------------------------------
+for (let index = 0; index < 24; index++) {
+    let elem = document.createElement("div");
+    elem.classList.add("blocks")
+    elem.textContent = index + 1
+    getQuest.append(elem)
+    selectNumbers(elem, index)
+}
+function selectNumbers(item, id) {
+    item.addEventListener('click', (e) => {
+        console.log(id)
+        number = id
+        getQuestion(number);
+        if (number != 0) { back.classList.remove("btn-none"); if (!a.classList.contains("btn-none") && number < 23) { a.classList.add("btn-none"); console.log("условие сработало") } } else { back.classList.add("btn-none"); if (!a.classList.contains("btn-none") && number < 23) { a.classList.add("btn-none"); console.log("условие сработало") } };
 
-
-
+        if (number == 23) {
+            next.classList.add("btn-none");
+            itog.classList.remove("btn-none");
+        }
+        else {
+            if (!a.classList.contains("btn-none") && number < 23) { a.classList.add("btn-none"); console.log("условие сработало") }
+            next.classList.remove("btn-none");
+            itog.classList.add("btn-none");
+        };
+    })
+}
+//--------------------------------------------------------------
 function getQuestion(n) {
     form1.innerHTML = "";
     h2.innerHTML = test[n].question;
@@ -193,6 +218,11 @@ next.addEventListener("click", (event) => {
     /* if(result[number]!=0) {
          getQuest
      }*/
+     if (result[number] != 0) {
+        let l1 = getQuest.children;
+        console.log(l1)
+        l1[number].classList.add("ready")
+    }
     number++;
 
     if (number >= 23) {
@@ -236,10 +266,12 @@ itog.addEventListener("click", (event) => {
 	let vibor = 0;
     for (let index = 0; index < 24; index++) {
         if (result[index] == 0) {
-            a.classList.remove("btn-none") ;min=result[index]
+            min=result[index]
         } 
+
     }
-    if(min==0){flag=false}else{flag=true}
+
+    if(min==0){flag=false; alert('Вы не полностью прошли тест');}else{flag=true}
 
     if(flag)
     {
