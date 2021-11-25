@@ -1,7 +1,12 @@
+/*
+ https://autoprefixer.github.io
+*/
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 body{
     background-image: url("../img/bg.svg");
@@ -39,6 +44,8 @@ header, footer {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
+            padding-left: 20px;
+            padding-right: 20px;
 }
 .header h4{
     margin: 20px 0 0 15px;
@@ -47,15 +54,13 @@ header, footer {
     font-size: 14px;
     text-transform: uppercase;
 }
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 a {
     text-decoration: none;
     color: black;
+}
+.nazvanie-voprosa{
+    border-bottom: 2px solid gray;
 }
 hr {
     border: none;
@@ -98,7 +103,6 @@ footer {
 .login-form input[type="submit"]{
     font-weight: bold;
     font-size: 12px;
-    text-transform: uppercase;
     padding: 10px 15px;
     padding-right: 40px;
 }
@@ -117,25 +121,25 @@ footer {
     color: white;
     border: none;
     border-radius: 5px;
-    margin-top:15px;
     padding:12px;
-    width: 250px;
     cursor: pointer;
+    width: 100px;
 }
 .login-form input[type="checkbox"]{
     vertical-align: middle;
     margin-right: 5px;
 }
 .login-form a{
-    margin-left: 50px;
+    margin-left: 20px;
 }
 .login-form {
     width: 400px;
     padding: 20px 40px 30px;
     margin: 0 auto;
-    text-align: center;
 }
-
+.join{
+    margin: 0 auto;
+}
 form h1 {
     margin: 0 0 15px 0;
     font-size: 24px;
@@ -164,14 +168,30 @@ form h1 {
     line-height: 40px;
     background: white;
     margin-bottom: 12px;
-    width: 1000px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.nav{
+    min-height: 0;
+    padding: 20px;
 }
 
-.block23 {
-    margin: 20px auto;
-    height: 50px;
-    width: 100%;
+.btns{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.btns-rigth{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+
 }
 
 .block2{
@@ -181,14 +201,13 @@ form h1 {
     text-align: center;
     line-height: 50px;
     white-space: nowrap;
-    overflow: hidden;
-    float: left;
+    
     cursor: pointer;
 }
 
 .block3{
     padding: 5px 20px;
-    float: right;
+    
     background: white;
     cursor: pointer;
 }
@@ -214,7 +233,7 @@ form h1 {
 .block5{
     padding: 5px 20px;
     vertical-align: middle;
-    float: right;
+   
     background: white;
     margin-right: 5px;
     cursor: pointer;
@@ -253,14 +272,18 @@ form h1 {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
 }
 .blocks{
     min-height: 5px;
-    padding: 10px;
+    text-align: center;
     background: white;
     border: 2px solid black;
     border-radius: 15px;
     cursor: pointer;
+    margin: 3px 0 0 5px;
+    width: 40px;
 }
 .no{
     font-size: 14px;
@@ -277,29 +300,43 @@ form h1 {
     height: 50px;
     margin-top: 25px;
 }
+.forget-remember{
+    width: 300px;
+}
+
 .project{
     width: 700px;
     margin: 0 auto;
 }
 @media (max-width: 1200px){
     .block1{
-        width: 100%;
+        max-width: 100%;
+    }
+    .block23{
+        max-width: 100%;
+    }
+}
+@media (max-width: 1010px){
+    .block1{
+        max-width: 100%;
+        
     }
 }
 @media (max-width: 900px){
-    
+    .block1{
+        max-width: 100%;
+    }
     .header img{
         margin: 0 auto;
     }
     .header{
-        max-width: 1100px;
+        max-width: 100%;
     }
     .footer{
-        max-width: 1100px;
+        max-width: 100%;
     }
     .block23{
         width: 100%;
-        margin-left: 100px;
     }
 }
 @media (max-width: 768px){
@@ -312,15 +349,43 @@ form h1 {
         padding-left:20px ;
         padding-right: 20px;
     }
+    .block23{
+        max-width: 100%;
+    }
 }
 @media (max-width: 470px){
     .header{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .block1{
+        padding: 50px;
     }
     .login-form{
         width: 100%;
     }
-    
+    .block23{
+        max-width: 100%;
+    }
+    .nav{
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+    .btns-rigth{
+        margin: 0 30px 0 50px;
+    }
+    main{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    }
 }
 
 @-webkit-keyframes passwor{
@@ -343,17 +408,34 @@ form h1 {
         color: black;
     }
     50%{
-        color: rgb(75, 4, 4);
+        color: rgb(3, 32, 109);
     }
     70%{
-        color: rgb(165, 12, 12);
+        color: rgb(10, 104, 180);
     }
     100%{
-        color: red;
+        color: rgb(6, 136, 243);
     }
 }
 .forget-pass:hover{
-    color: red;
+    text-decoration: underline;
+    color: #007bff;
     -webkit-animation: passwor 0.3s ease;
             animation: passwor 0.3s ease;
+}
+@media (max-width: 355px){
+    .header h4{
+        width: 100%;
+    }
+    .login-form input{
+        width: 100%;
+    }
+    .block1{
+        max-width: 100%;
+        line-height: 30px;
+        padding: 20px;
+    }
+    .forget-remember{
+        width: 100%;
+    }
 }
