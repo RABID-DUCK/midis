@@ -1,98 +1,98 @@
 ﻿﻿let test = [
     {
-        question: "Вопрос 1 Мне хотелось бы в своей профессиональной деятельности",
+        question: "Мне хотелось бы в своей профессиональной деятельности",
         answers: ["А) общаться с самыми разными людьми;", "Б) что-нибудь делать своими руками – мебель, одежду, машины и т.д.;", "В) снимать фильмы, рисовать, писать книги, выступать на сцене и т.д."]
     },
     {
-        question: "Вопрос 2 В книге или кинофильме меня больше всего привлекает:",
+        question: "В книге или кинофильме меня больше всего привлекает:",
         answers: ["А) художественная форма, мастерство писателя или режиссера;", "Б) сюжет, действие героев;", "В) информация, которая может пригодиться в жизни."]
     },
     {
-        question: "Вопрос 3 Меня обрадует Нобелевская премия:",
+        question: "Меня обрадует Нобелевская премия:",
         answers: ["А) в области науки;", "Б) за общественную деятельность;", "В) в области искусства."]
     },
     {
-        question: "Вопрос 4 Я скорее соглашусь стать:",
+        question: "Я скорее соглашусь стать:",
         answers: ["А) управляющим банка;", "Б) главным инженером на производстве;", "В) начальником экспедиции."]
     },
     {
-        question: "Вопрос 5 Будущее людей определяет:",
+        question: "Будущее людей определяет:",
         answers: ["А) достижение науки;", "Б) развитие производства;", "В) взаимопонимание среди людей."]
     },
     {
-        question: "Вопрос 6 На месте директора школы я прежде всего займусь:",
+        question: "На месте директора школы я прежде всего займусь:",
         answers: ["А) благоустройством школы (столовая, спортзал, компьютеры);", "Б) созданием дружного, сплоченного коллектива;", "В) разработкой новых технологий обучения."]
     },
     {
-        question: "Вопрос 7 На технической выставке меня больше всего привлечет:",
+        question: "На технической выставке меня больше всего привлечет:",
         answers: ["А) внешний вид экспонатов (цвет, форма);", "Б) внутреннее устройство экспонатов (механизм);", "В) практическое применение экспонатов."]
     },
     {
-        question: "Вопрос 8 В людях я ценю прежде всего:",
+        question: "В людях я ценю прежде всего:",
         answers: ["А) мужество, смелость, выносливость;", "Б) дружелюбие, чуткость, отзывчивость;", "В) ответственность, аккуратность."]
     },
     {
-        question: "Вопрос 9 В свободное от работы время я буду:",
+        question: "В свободное от работы время я буду:",
         answers: ["А) писать стихи или музыку или рисовать;", "Б) ставить различные опыты;", "В) тренироваться."]
     },
     {
-        question: "Вопрос 10 В заграничных поездках меня больше всего привлечет:",
+        question: "В заграничных поездках меня больше всего привлечет:",
         answers: ["А) экстремальный туризм (альпинизм, виндсерфинг, горные лыжи);", "Б) деловое общение;", "В) возможность знакомства с историей и культурой другой страны."]
     },
     {
-        question: "Вопрос 11 Мне интереснее беседовать:",
+        question: "Мне интереснее беседовать:",
         answers: ["А) о машине нового типа;", "Б) о новой научной теории;", "В) о человеческих взаимоотношениях."]
     },
     {
-        question: "Вопрос 12  Если бы в моей школе было всего три кружка, я бы выбрал:",
+        question: "Если бы в моей школе было всего три кружка, я бы выбрал:",
         answers: ["А) технический;", "Б) музыкальный;", "В) спортивный."]
     },
     {
-        question: "Вопрос 13  В школе больше внимания следует уделять:",
+        question: "В школе больше внимания следует уделять:",
         answers: ["А) улучшению взаимопонимания между учителями и учениками;", "Б) поддержанию здоровья учащихся, занятиям спортом;", "В) укреплению дисциплины."]
     },
     {
-        question: "Вопрос 14 Я с большим интересом смотрю:",
+        question: "Я с большим интересом смотрю:",
         answers: ["А) научно-популярные фильмы;", "Б) программы о культуре и спорте;", "В) спортивные программы."]
     },
     {
-        question: "Вопрос 15 Мне было бы интереснее работать:",
+        question: "Мне было бы интереснее работать:",
         answers: ["А) с машинами, механизмами;", "Б) с объектами природы;", "В) с детьми или сверстниками."]
     },
     {
-        question: "Вопрос 16 Школа в первую очередь должна:",
+        question: "Школа в первую очередь должна:",
         answers: ["А) давать знания и умения;", "Б) учить общению с другими людьми;", "В) обучать навыкам работы."]
     },
     {
-        question: "Вопрос 17 Каждый человек должен:",
+        question: "Каждый человек должен:",
         answers: ["А) вести здоровый образ жизни;", "Б) иметь возможность заниматься творчеством;", "В) иметь удобные бытовые условия."]
     },
     {
-        question: "Вопрос 18 Для благополучия общества в первую очередь необходима:",
+        question: "Для благополучия общества в первую очередь необходима:",
         answers: ["А) защита интересов и прав граждан;", "Б) забота о материальном благополучии людей;", "В) наука и технический прогресс."]
     },
     {
-        question: "Вопрос 19 Мне больше всего нравятся уроки:",
+        question: "Мне больше всего нравятся уроки:",
         answers: ["А) физкультуры;", "Б) математики;", "В) труда."]
     },
     {
-        question: "Вопрос 20 Мне интереснее было бы:",
+        question: "Мне интереснее было бы:",
         answers: ["А) планировать производство продукции;", "Б) изготавливать изделия;", "В) заниматься сбытом продукции."]
     },
     {
-        question: "Вопрос 21 Я предпочитаю читать статьи:",
+        question: "Я предпочитаю читать статьи:",
         answers: ["А) о выдающихся ученых и их открытиях;", "Б) о творчестве ученых и музыкантов;", "В) об интересных изобретениях."]
     },
     {
-        question: "Вопрос 22 Свободное время я охотнее провожу:",
+        question: "Свободное время я охотнее провожу:",
         answers: ["А) делая что-то по хозяйству;", "Б) с книгой;", "В) на выставках, концертах и пр."]
     },
     {
-        question: "Вопрос 23 Больший интерес у меня вызовет сообщение:",
+        question: "Больший интерес у меня вызовет сообщение:",
         answers: ["А) о художественной выставке;", "Б) о ситуации на фондовой бирже;", "В) о научном открытии."]
     },
     {
-        question: "Вопрос 24 Я предпочитаю работать:",
+        question: "Я предпочитаю работать:",
         answers: ["А) в помещении, где много людей;", "Б) в необычных условиях;", "В) в обычном кабинете."]
     }
 ];
@@ -186,6 +186,7 @@ function getQuestion(n) {
         }
         let elem1 = document.createElement("label");
         elem1.setAttribute('for', 'question' + i);
+        elem1.classList.add('ogo');
         elem1.innerHTML = l[i];
 
         let elem2 = document.createElement("br");
@@ -319,16 +320,16 @@ itog.addEventListener("click", (event) => {
                     могут подойти такие професии как:</b><br>
                     <i>Высшее образование:</i><br>
                     <ul>
-                        <li><a href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/servis-i-turizm/lingvistika/">Лингвистика и межкультурная коммуникация</a></li>
-                        <li><a href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/servis-i-turizm/gostinichnoe-delo/">Управление в индустрии гостеприимства</a></li>
-                        <li><a
+                        <li><a class="midis_a" href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/servis-i-turizm/lingvistika/">Лингвистика и межкультурная коммуникация</a></li>
+                        <li><a class="midis_a" href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/servis-i-turizm/gostinichnoe-delo/">Управление в индустрии гостеприимства</a></li>
+                        <li><a class="midis_a"
                             href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/ekonomika-i-upravlenie/upravlenie-personalom/">Управление
                             персоналом организации</a></li>
                     </ul>
                        <i>Колледж:</i><br> 
                       <ul>
-                          <li><a href="https://midis.ru/kolledzh/ekonomika-i-upravlenie/k-upravlenie-personalom/">Предпринимательство</a></li>
-                          <li><a href="https://midis.ru/kolledzh/servis-i-turizm/turizm/">Маркетинг в туризме</a></li>
+                          <li><a class="midis_a" href="https://midis.ru/kolledzh/ekonomika-i-upravlenie/k-upravlenie-personalom/">Предпринимательство</a></li>
+                          <li><a class="midis_a" href="https://midis.ru/kolledzh/servis-i-turizm/turizm/">Маркетинг в туризме</a></li>
                       </ul>`;
                 break;
 
@@ -347,14 +348,14 @@ itog.addEventListener("click", (event) => {
                 <br>
                  <i>Высшее образование:</i>
                  <ul>
-                     <li><a href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/ekonomika-i-upravlenie/menedzhment-organizatsii/">Управление бизнесом и интернет-маркетинг</a></li>
-                     <li><a href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/servis-i-turizm/menedzhment-v-restorannom-i-gostinichnom-biznese/">Менеджмент в ресторанном и гостиничном бизнесе</a></li>
+                     <li><a class="midis_a" href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/ekonomika-i-upravlenie/menedzhment-organizatsii/">Управление бизнесом и интернет-маркетинг</a></li>
+                     <li><a class="midis_a" href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/servis-i-turizm/menedzhment-v-restorannom-i-gostinichnom-biznese/">Менеджмент в ресторанном и гостиничном бизнесе</a></li>
                  </ul>
                  
                     <i>Колледж:</i><br> 
                     <ul>
-                        <li><a href="https://midis.ru/kolledzh/ekonomika-i-upravlenie/kommertsiya/">Интернет-маркетинг</a></li>
-                        <li><a href="https://midis.ru/kolledzh/ekonomika-i-upravlenie/k-upravlenie-personalom/">Предпринимательство</a></li>
+                        <li><a class="midis_a" href="https://midis.ru/kolledzh/ekonomika-i-upravlenie/kommertsiya/">Интернет-маркетинг</a></li>
+                        <li><a class="midis_a" href="https://midis.ru/kolledzh/ekonomika-i-upravlenie/k-upravlenie-personalom/">Предпринимательство</a></li>
                     </ul>`;
                 break;
 
@@ -373,16 +374,16 @@ itog.addEventListener("click", (event) => {
                     могут подойти такие професии как:</b><br>
                 <i>Высшее образование:</i><br>
                 <ul>
-                    <li><a
+                    <li><a class="midis_a"
                             href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/it-tekhnologii/razrabotka-kompyuternykh-igr-i-prilozheniy-virtualnoy-i-dopolnennoy-realnosti-vr-ar/">Разработка компьютерных игр и приложений с виртуальной и дополненной реальностью (VR/AR)</a></li>
-                    <li><a
+                    <li><a class="midis_a"
                             href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/it-tekhnologii/prikladnaya-informatika/">Разработка веб и мобильных приложений</a></li>
-                    <li><a
+                    <li><a class="midis_a"
                             href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/it-tekhnologii/prikladnaya-informatika/">Разработка веб и мобильных приложений</a></li>
                 </ul>
                 <i>Колледж:</i><br>
                 <ul>
-                    <li><a
+                    <li><a class="midis_a"
                             href="https://midis.ru/kolledzh/it-tekhnologii/programmirovanie/">Разработка компьютерных игр</a>
                     </li>
                     
@@ -410,11 +411,11 @@ itog.addEventListener("click", (event) => {
                 </ul>
                 <i>Колледж:</i><br>
                 <ul>
-                    <li><a href="https://midis.ru/kolledzh/dizayn/3d-modelirovanie-dlya-kompyuternykh-igr-i-animatsiya/">3D-моделирование для компьютерных игр и анимация</a>
+                    <li><a class="midis_a" href="https://midis.ru/kolledzh/dizayn/3d-modelirovanie-dlya-kompyuternykh-igr-i-animatsiya/">3D-моделирование для компьютерных игр и анимация</a>
                     </li>
-                    <li><a href="https://midis.ru/kolledzh/dizayn/dizayn-mobilnykh-i-veb-prilozheniy/">UI/UX и графический дизайн</a></li>
-                    <li><a href="https://midis.ru/kolledzh/dizayn/dizayn-odezhdy-i-aksessuarov/">Дизайн одежды и аксессуаров</a></li>
-                    <li><a href="https://midis.ru/kolledzh/servis-i-turizm/parikmakherskoe-iskusstvo/">Парикмахерское искусство и прикладная эстетика</a></li>
+                    <li><a class="midis_a" href="https://midis.ru/kolledzh/dizayn/dizayn-mobilnykh-i-veb-prilozheniy/">UI/UX и графический дизайн</a></li>
+                    <li><a class="midis_a" href="https://midis.ru/kolledzh/dizayn/dizayn-odezhdy-i-aksessuarov/">Дизайн одежды и аксессуаров</a></li>
+                    <li><a class="midis_a" href="https://midis.ru/kolledzh/servis-i-turizm/parikmakherskoe-iskusstvo/">Парикмахерское искусство и прикладная эстетика</a></li>
                 </ul>`;
                 break;
 
@@ -435,13 +436,13 @@ itog.addEventListener("click", (event) => {
                     могут подойти такие професии как:</b><br>
                 <i>Высшее образование:</i><br>
                 <ul>
-                    <li><a href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/servis-i-turizm/gostinichnoe-delo/">Управление в индустрии гостеприимства</a></li>
+                    <li><a class="midis_a" href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/servis-i-turizm/gostinichnoe-delo/">Управление в индустрии гостеприимства</a></li>
                 </ul>
                 <i>Колледж:</i><br>
                 <ul>
-                    <li><a href="https://midis.ru/kolledzh/servis-i-turizm/k-elementa/">Администрирование отеля</a>
+                    <li><a class="midis_a" href="https://midis.ru/kolledzh/servis-i-turizm/k-elementa/">Администрирование отеля</a>
                     </li>
-                    <li><a href="https://midis.ru/kolledzh/servis-i-turizm/turizm/">Маркетинг в туризме</a></li>
+                    <li><a class="midis_a" href="https://midis.ru/kolledzh/servis-i-turizm/turizm/">Маркетинг в туризме</a></li>
                 </ul>`;
                 break;
 
@@ -461,15 +462,15 @@ itog.addEventListener("click", (event) => {
                 могут подойти такие професии как:</b><br>
             <i>Высшее образование:</i><br>
             <ul>
-                <li><a href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/servis-i-turizm/menedzhment-v-restorannom-i-gostinichnom-biznese/">Менеджмент в ресторанном и гостиничном бизнесе</a></li>
-                <li><a href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/ekonomika-i-upravlenie/menedzhment-organizatsii/">Управление бизнесом и интернет-маркетинг</a></li>
+                <li><a class="midis_a" href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/servis-i-turizm/menedzhment-v-restorannom-i-gostinichnom-biznese/">Менеджмент в ресторанном и гостиничном бизнесе</a></li>
+                <li><a class="midis_a" href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/ekonomika-i-upravlenie/menedzhment-organizatsii/">Управление бизнесом и интернет-маркетинг</a></li>
             </ul>
             <i>Колледж:</i><br>
             <ul>
-                <li><a href="https://midis.ru/kolledzh/ekonomika-i-upravlenie/kommertsiya/">Интернет-маркетинг</a>
+                <li><a class="midis_a" href="https://midis.ru/kolledzh/ekonomika-i-upravlenie/kommertsiya/">Интернет-маркетинг</a>
                 </li>
-                <li><a href="https://midis.ru/kolledzh/ekonomika-i-upravlenie/bankovskoe-delo/">Банковское дело</a></li>
-                <li><a href="https://midis.ru/kolledzh/ekonomika-i-upravlenie/k-upravlenie-personalom/">Предпринимательство</a></li>
+                <li><a class="midis_a" href="https://midis.ru/kolledzh/ekonomika-i-upravlenie/bankovskoe-delo/">Банковское дело</a></li>
+                <li><a class="midis_a" href="https://midis.ru/kolledzh/ekonomika-i-upravlenie/k-upravlenie-personalom/">Предпринимательство</a></li>
             </ul>`;
                 break;
             default:
