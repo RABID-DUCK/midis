@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 
 *{
     margin: 0;
@@ -81,14 +88,26 @@ footer {
 }
 
 .footer_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 7px;
 }
 .midis_a:hover::before{
-    transform-origin: left;
-    transform: scaleX(1);
+    -webkit-transform-origin: left;
+        -ms-transform-origin: left;
+            transform-origin: left;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transition: -webkit-transform 0.75s;
+    transition: -webkit-transform 0.75s;
+    -o-transition: transform 0.75s;
     transition: transform 0.75s;
+    transition: transform 0.75s, -webkit-transform 0.75s;
 }
 .midis_a{
     position: relative;
@@ -100,10 +119,18 @@ footer {
     background-color: orange;
     position: absolute;
     left: 0;
-    transform-origin: right;
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
     bottom: -5px;
-    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform 0.75s;
+    transition: -webkit-transform 0.75s;
+    -o-transition: transform 0.75s;
     transition: transform 0.75s;
+    transition: transform 0.75s, -webkit-transform 0.75s;
 }
 .footer_block p{
     font-size: 12px;
