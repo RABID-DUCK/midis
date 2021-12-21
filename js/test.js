@@ -406,7 +406,7 @@ itog.addEventListener("click", (event) => {
                     могут подойти такие професии как:</b><br>
                 <i>Высшее образование:</i><br>
                 <ul>
-                    <li><a href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/dizayn/3d-modelirovanie-dlya-kompyuternykh-igr-i-animatsiya/">Цифровая графика в индустрии компьютерных игр</a>
+                    <li><a class="midis_a href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/dizayn/3d-modelirovanie-dlya-kompyuternykh-igr-i-animatsiya/">Цифровая графика в индустрии компьютерных игр</a>
                     </li>
                 </ul>
                 <i>Колледж:</i><br>
