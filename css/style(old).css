@@ -217,6 +217,11 @@ form h1 {
     font-weight: 600;
     transition: font-weight 0.1s ease-in;
 }
+.ogo2:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    transition: font-weight 0.1s ease-in;
+}
 
 .form_r p {
     border-left: 3px solid #007bff80;
