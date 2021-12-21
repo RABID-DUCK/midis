@@ -81,7 +81,29 @@ footer {
 }
 
 .footer_block {
+    display: flex;
+    justify-content: center;
     margin-top: 7px;
+}
+.midis_a:hover::before{
+    transform-origin: left;
+    transform: scaleX(1);
+    transition: transform 0.75s;
+}
+.midis_a{
+    position: relative;
+}
+.midis_a::before{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    transform-origin: right;
+    bottom: -5px;
+    transform: scaleX(0);
+    transition: transform 0.75s;
 }
 .footer_block p{
     font-size: 12px;
@@ -493,7 +515,6 @@ display: flex;
     }
 }
 .forget-pass:hover{
-    text-decoration: underline;
     color: #007bff;
     -webkit-animation: passwor 0.3s ease;
             animation: passwor 0.3s ease;
