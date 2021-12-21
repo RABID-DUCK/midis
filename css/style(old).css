@@ -209,9 +209,15 @@ form h1 {
     text-align: justify;
 
 }
-.form1:hover{
-    text-decoration: underline;
+.ogo{
+    margin-left: 5px;
 }
+.ogo:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    transition: font-weight 0.1s ease-in;
+}
+
 .form_r p {
     border-left: 3px solid #007bff80;
     padding: 1% 15px 0;
