@@ -65,6 +65,7 @@ a {
 }
 .nazvanie-voprosa{
     border-bottom: 2px solid gray;
+    width: 100%;
 }
 hr {
     border: none;
@@ -520,9 +521,26 @@ display: flex;
 -webkit-box-direction: normal;
     -ms-flex-direction: column;
         flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .ft_call{
         float: left;
+    }
+    .block6{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 450px){
+
+    .hoomer{
+        display: none;
+    }
+    .btns{
+        float: left;
+    }
+    .block2{
+        width: 80px;
     }
 }
 
@@ -568,16 +586,33 @@ display: flex;
         max-width: 250px;
     }
     .block1{
-        max-width: 250px;
+        max-width: 100%;
         line-height: 30px;
         padding: 20px;
     }
     .forget-remember{
         width: 100%;
     }
+    .btns{
+        margin: 0;
+    }
+}
+@media (max-width: 360px){
+    .block2 a{
+        display: none;
+    }
+    .block2{
+        background: url("../img/home-solid.svg") no-repeat;
+        width: 70px;
+        float: left;
+    }
 }
 @media (max-width: 336px){
     .M{
         display: none;
+    }
+    
+    .block1 h2{
+        width: 100%;
     }
 }
