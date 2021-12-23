@@ -204,6 +204,12 @@ function getQuestion(n) {
     readyQuest()
 };
 
+const view_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);  // адаптация через js
+if(view_width <= 450){
+    // уже неважно
+}
+
+
 getQuestion(number);
 
 let next = document.querySelector(".block3");
