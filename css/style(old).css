@@ -148,7 +148,7 @@ footer {
 .login-form,
 .login-form input[type="text"],
 .login-form input[type="password"],
-.login-form input[type="submit"]{
+.login-form input[type="submit"], .login-form input[type="number"], .login-form input[type="email"]{
     font-weight: bold;
     font-size: 12px;
     padding: 10px 15px;
@@ -156,7 +156,7 @@ footer {
 }
 
 .login-form input[type="password"],
-.login-form input[type="text"] {
+.login-form input[type="text"], .login-form input[type="email"], .login-form input[type="number"] {
     background: #f9f6f3 no-repeat 270px 10px;
     margin-bottom: 10px;
     text-transform: capitalize;
