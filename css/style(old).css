@@ -186,7 +186,7 @@ footer {
     width: 100px;
 }
 .login-form input[type="submit"]:hover{
-    background-color: #2305cc;
+    background-color: hsl(239, 93%, 40%);
     -webkit-transition: 1s ease;
     -o-transition: 1s ease;
     transition: 1s ease;
