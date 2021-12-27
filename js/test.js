@@ -125,12 +125,27 @@ let answers = [[1, 0, 0, 3, 0, 2],
 
 let question = [0, 0, 0, 0, 0, 0];
 
+   
+    
+
+
 var d = document;
 let getQuest = document.querySelector(".questions");
 let h2 = document.querySelector(".block1 h2");
 let form1 = document.querySelector(".form1");
 let a = d.querySelector(".block1 p");
 let number = 0;
+
+
+
+
+/*const nomer = document.getElementById('nomer');
+nomer.addEventListener('mousedown', (e)=>{
+    nomer.value = '+7 ';
+     
+});*/
+
+
 
 let result = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 // ходьба по номерам заданий-----------------------------------------
@@ -275,7 +290,6 @@ back.addEventListener("click", (event) => {
 });
 
 
-
 itog.addEventListener("click", (event) => {
     readyQuest()
     let flag=false;
@@ -313,9 +327,8 @@ itog.addEventListener("click", (event) => {
 
         switch (vibor) {
             case 1:
-                
+                //localStorage.getItem('SomeNick');
                 d.querySelector(".block6").classList.add("btn-none");
-
                 d.querySelector(".block1").innerHTML = `<h2>\nПоздравляем, вам больше подходит «Сфера работы с людьми» \n</h2>
                 <div class="pnrm people"></div>\n\n<p>\nОна включает такие профессии как: учитель, педагог,
                     экскурсовод, воспитатель, социолог, психолог, менеджер по персоналу, следователь.\n</p>\n<p>
@@ -340,7 +353,7 @@ itog.addEventListener("click", (event) => {
                 break;
 
             case 2:
-                
+                //localStorage.getItem('SomeNick');
                 d.querySelector(".block6").classList.add("btn-none");
                 d.querySelector(".block1").innerHTML = `<h2>\nПоздравляем, вам больше подходит «сфера умственного труда» \n</h2>
                 <div class="pnrm p2"></div>\n\n<p>\nОна включает такие профессии как:
@@ -366,7 +379,7 @@ itog.addEventListener("click", (event) => {
                 break;
 
             case 3:
-                
+               // localStorage.getItem('SomeNick');
                 d.querySelector(".block6").classList.add("btn-none");
                 d.querySelector(".block1").innerHTML = `<h2>\nПоздравляем, вам больше подходит «сфера технических интересов» \n</h2>
                 <div class="pnrm p3"></div>\n\n<p>\nОна включает такие профессии как: программист,
@@ -384,8 +397,6 @@ itog.addEventListener("click", (event) => {
                             href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/it-tekhnologii/razrabotka-kompyuternykh-igr-i-prilozheniy-virtualnoy-i-dopolnennoy-realnosti-vr-ar/">Разработка компьютерных игр и приложений с виртуальной и дополненной реальностью (VR/AR)</a></li>
                     <li><a class="midis_a"
                             href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/it-tekhnologii/prikladnaya-informatika/">Разработка веб и мобильных приложений</a></li>
-                    <li><a class="midis_a"
-                            href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/it-tekhnologii/prikladnaya-informatika/">Разработка веб и мобильных приложений</a></li>
                 </ul>
                 <i>Колледж:</i><br>
                 <ul>
@@ -398,7 +409,7 @@ itog.addEventListener("click", (event) => {
 
 
             case 4:
-                
+               // localStorage.getItem('SomeNick');
                 d.querySelector(".block6").classList.add("btn-none");
                 d.querySelector(".block1").innerHTML = `<h2>\nПоздравляем, вам больше подходит «сфера эстетики и искусства» \n</h2>
                 <div class="pnrm pp4"></div>\n\n<p>\nОна включает такие профессии как: художник, дизайнер,
@@ -427,7 +438,7 @@ itog.addEventListener("click", (event) => {
 
 
             case 5:
-                
+               // localStorage.getItem('SomeNick');
                 d.querySelector(".block6").classList.add("btn-none");
                 d.querySelector(".block1").innerHTML = `<h2>\nПоздравляем, вам больше подходит «сфера физического труда,подвижной деятельности» \n</h2>
                 <div class="pnrm p5"></div>\n\n<p>\nОна включает такие профессии как: спортсмен, фотограф,
@@ -453,7 +464,7 @@ itog.addEventListener("click", (event) => {
                 break;
 
             case 6:
-                
+               // localStorage.getItem('SomeNick');
                 d.querySelector(".block6").classList.add("btn-none");
                 d.querySelector(".block1").innerHTML = `<h2>\nПоздравляем, вам больше подходит «сфера материальных интересов,планово-экономических видов
                 работ» \n</h2>
